@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; /* equally spacing all the elements in the nav bar */
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("amazon_logo.png");
+  height: 50px;
+  width: 100%;
+  background-size: cover;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/*Box-2 */
+.add-first {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.add-second {
+  font-size: 1rem;
+  margin-left: 4px;
+}
+/* agar 2 elements ek hi single container me hai, make it flex */
+
+/*You use display: flex on a parent container when you want to:
+
+Arrange its child elements in a row or column easily
+
+Control alignment and spacing between them
+
+Avoid using floats or complicated margins for layout
+
+*/
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+/* Box-3 */
+.nav-search {
+  display: flex;
+  justify-content: space-evenly; /* euqla size me kr dega space betweeh each item*/
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.select-search {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px; /* only left top */
+  border-top-right-radius: 4px;
+  border: none; /* delete right border */
+}
+.search-input {
+  width: 100%; /* khali area to search box */
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  width: 40px;
+  display: flex;
+  justify-content: center; /* horizontally centered */
+  align-items: center; /* vertically*/
+  font-size: 1.2rem;
+  background-color: #fcbf6f;
+  border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  color: #0f1111;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+
+/* box 4 */
+
+span {
+  font-size: 0.7rem;
+}
+.nav-second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Box-6 */
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-size: 700 ;
+}
